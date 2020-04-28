@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobileApplication</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_selectcars">Select Cars</string>
+    <string name="title_activities">Activities</string>
+    <string name="title_profile">Profile</string>
+</resources>

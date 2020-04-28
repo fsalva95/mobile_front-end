@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mobileapplication.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_selectcars"
+        android:name="com.example.mobileapplication.ui.selectcars.SelectCarsFragment"
+        android:label="@string/title_selectcars"
+        tools:layout="@layout/fragment_selectcars" />
+
+    <fragment
+        android:id="@+id/navigation_activities"
+        android:name="com.example.mobileapplication.ui.activities.ActivitiesFragment"
+        android:label="@string/title_activities"
+        tools:layout="@layout/fragment_activities" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.mobileapplication.ui.profiles.ProfilesFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profiles" />
+</navigation>

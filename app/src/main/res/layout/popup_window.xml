@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0062DEF8">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/activityImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        app:riv_corner_radius="30dip"
+        app:riv_border_width="2dip"
+        app:riv_border_color="#0062DEF8"
+        app:riv_mutate_background="true">
+
+
+
+    </com.makeramen.roundedimageview.RoundedImageView>
+
+
+
+
+
+</RelativeLayout>
